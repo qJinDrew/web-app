@@ -12,7 +12,13 @@
     <p><img src="media/news/image/no_image.jpg" width="200px"></p> <!-- если нет фото статьи -->
     {% endif %}
     <p>{{ article.full_text }}</p>
+    {% if request.user.is_superuser %}
     <a href="{% url 'news-delete' article.id %}" class="btn btn-danger">Удалить</a>
+    {% else %}
+    {% endif %}
+    {% if request.user.is_superuser %}
     <a href="{% url 'news-update' article.id %}" class="btn btn-info">Редактировать</a>
+    {% else %}
+    {% endif %}
 </div>
 {% endblock %}
