@@ -1,5 +1,5 @@
 # Мой первый сайт на Django
-<img src="https://jindrew1.pythonanywhere.com/" alt="">
+[Посетить сайт](https://jindrew1.pythonanywhere.com/)
 - sgiref    3.6.0
 - Django     4.2.1
 - Pillow     10.0.0
