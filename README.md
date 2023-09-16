@@ -1,4 +1,4 @@
-# Портфолио Django project
+# Мой первый сайт на Django
 - sgiref    3.6.0
 - Django     4.2.1
 - Pillow     10.0.0
