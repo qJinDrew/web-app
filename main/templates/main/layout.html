@@ -32,16 +32,16 @@
             <a href="{% url 'news_home' %}"><li><i class="bi bi-person-lines-fill"></i> Блог </li></a>
             <a href=""><li><i class="bi bi-envelope"></i> Контакты </li></a>
         <ul class="cont"
-            <a href="https://www.instagram.com/jin.drew"><li><i class="bi bi-instagram"></i></li></a>
-            <a href="https://github.com/qJinDrew"><li><i class="bi bi-github"></i></li></a>
-            <a href="https://t.me/jin_drew"><li><i class="bi bi-telegram"></i></li></a>
+            <a href=""><li><i class=""></i></li></a> <!-- крайняя ссылка не жмякалась, убрал баг -->
+            <a href="http://127.0.0.1:8000/admin/" target="_blank"><li><i class="bi bi-person-circle"></i></li></a>
+            <a href="https://github.com/qJinDrew" target="_blank"><li><i class="bi bi-github"></i></li></a>
+            <a href="https://t.me/jin_drew" target="_blank"><li><i class="bi bi-telegram"></i></li></a>
         </ul>
         </ul>
+     {% if request.user.is_superuser %}
         <button class="btn btn-info" onclick="window.location.href = '{% url 'create' %}';"> Добавить запись </button>
-
-
-
-
+    {% else %}
+    {% endif %}
     </aside>
     <main>          <!-- основная часть -->
         {% block content %}
