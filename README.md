@@ -1,7 +1,7 @@
 # qjindrew.github.io
 Портфолио
 
-asgiref    3.6.0
+sgiref    3.6.0
 
 Django     4.2.1
 
