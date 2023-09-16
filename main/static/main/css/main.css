@@ -1,0 +1,161 @@
+body {                           /* Главный фон */
+    background: #2c2c2c;
+}
+aside {                         /* Шапка */
+    float: block-start;
+    background: #3C465C;
+    width: 100%;
+    padding: 2.5%;
+    height: 15vh;
+    color: #fff;
+    border-bottom: 2px solid #4d4d4d;
+}
+aside img {                    /* Логотип */
+    width: 100px;
+    float: left;
+    margin-top: -25px;
+    position: relative;
+}
+a {                         /* Текст ссылок */
+    text-decoration: none;  /* убирает подчеркивание */
+    Font-style: normal;
+}
+p {
+    Font-style: normal;
+}
+
+
+aside ul.hr {           /* НАВИГАЦИЯ */
+    margin-left: 600px; /* отступо навигации */
+    padding: 0; /* Значение полей */
+    margin-top: -50px;  /* Высота навигации */
+    list-style: none;
+ }
+
+aside ul.cont li {          /* соц. сети */
+    float: right;
+    margin-left: 5px;
+    font-size: 20px;
+}
+aside ul {list-style: none;}
+
+
+
+aside ul li {               /* ссылки */
+    color: #fff;
+    display: inline;
+    margin-top: 0px;
+    transition: transform .6s ease;
+    margin-right: 5px;
+    margin-left: 40px;
+    float: left;
+
+
+}
+aside ul li:hover, aside ul a:hover {
+    color: #00FFFF;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+.btn-info {              /* Кнопка добавить запись - в правом углу */
+    margin-left: 180px;
+    margin-top: -30px;
+    display: inline;
+    background: #00FFFF;
+}
+.btn-info a:hover {
+    margin-left: 180px;
+    margin-top: -30px;
+    display: inline;
+}
+main .features1 {
+    float: none;
+    color: #fff;
+    margin-top: 150px;
+    margin-left: 400px;
+    text-align: auto;  /* надпись - Новости на сайте */
+    width: 100%;
+    Font-style: normal;
+}
+main .features1 h6 {color: #00FFFF ; font-size: 15px;}
+main .features1 h1 {font-size: 50px;}
+main .features1 p {max-width: 450px; margin: 50px left;}
+
+
+main .features {
+    float: none;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;  /* надпись - Новости на сайте */
+    width: 100%;
+    Font-style: normal;
+}
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 400px; margin: 20px auto;}
+
+
+main .news_detail {
+    float: none;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;  /* надпись - Новости на сайте */
+    width: 100%;
+    Font-style: normal;
+}
+main .news_detail h1 {font-size: 50px;}
+main .news_detail p {max-width: 50%; margin: 1% auto;}
+
+
+
+
+.alert-warning {            /* Новостной блок */
+    float: center;
+    clear: both;
+    width: 500px;           /* Ширина блока */
+    margin: 20px 37%;    /* перемещение по горизонт. */
+    text-align: left;
+    Font-style: normal
+}
+
+form {                      /* Форма по добавлению записи */
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+    Font-style: normal;
+}
+}
+
+
+
+/* ???????????????????????????? */
+.btn-warning {
+   margin-left: 330px;
+}
+
+
+
+
+li {list-style-type: none;}/* Убираем маркеры */
+
+aside .logo span {          /* Текст Лого Jin Drew */
+    font-size: 40px;
+    margin-left: 10px ;
+    font-weight: bold;
+    bottom: 7.5px;
+
+    position: relative;
+    display: inline-block;
+
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--flip));
+}
+@keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}
+
+
+.photo_blog {
+    width: 20px;
+}

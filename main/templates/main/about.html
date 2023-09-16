@@ -1,0 +1,18 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Мое портфолио{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1>Мое портфолио</h1>
+    <p>Работая с нужными людьми, вы не будите задумываться хороший ли у вас коллектив, а будете получать удовольствие
+        от того, что зарабатываете на том, что делаете людей счастливее.</p>
+    <p><a href="https://github.com/qJinDrew" target="_blank">GitHub</a></p>
+
+    <a href="{% url 'home' %}">
+        <button class="btn btn-danger">Кликай</button>
+    </a>
+
+</div>
+{% endblock %}
+
